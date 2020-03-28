@@ -15,7 +15,7 @@ local k = import 'ksonnet/ksonnet.beta.4/k.libsonnet';
 
     commonLabels:: {
       'app.kubernetes.io/name': 'observatorium-api-gateway',
-      'app.kubernetes.io/instance': gateway.config.name,
+            'app.kubernetes.io/instance': gateway.config.name,
       'app.kubernetes.io/version': gateway.config.version,
       'app.kubernetes.io/component': 'api-gateway',
     },
